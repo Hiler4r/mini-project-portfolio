@@ -4,17 +4,17 @@ import Image from 'next/image'
 
 export default function Navbar() {
   return (
-    <nav>
+    <nav className='px-10'>
       <ul className='flex items-center gap-15 justify-between mx-10 my-8 font-bold text-lg'>
         <div className='flex items-center gap-5'>
-          <li className='hover:text-orange-500 text-color-orange-500'>
+          <li className='hover:text-primary text-color-primary'>
             <Link href="/">Home</Link>
           </li>
-          <li className='active:text-orange-500 hover:text-orange-500'>
-            <Link href="/about">About</Link>
+          <li className='active:text-primary hover:text-primary'>
+            <Link href="#about">About</Link>
           </li>
-          <li className='hover:text-orange-500'>
-            <Link href="/works">Works</Link>
+          <li className='hover:text-primary'>
+            <Link href="#projects">Projects</Link>
           </li >
         </div>
 
@@ -35,11 +35,11 @@ export default function Navbar() {
 
 
         <div className='flex items-center gap-5'>
-          <li className='hover:text-orange-500'>
+          {/* <li className='hover:text-orange-500'>
             <Link href="/blog">Blog</Link>
-          </li>
-          <li className='hover:text-orange-500'>
-            <Link href="/contact">Contact</Link>
+          </li> */}
+          <li className='hover:text-primary'>
+            <Link href="#contact">Contact</Link>
           </li>
         </div>
       </ul>

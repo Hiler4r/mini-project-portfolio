@@ -3,13 +3,13 @@ import ProjectCard from './ProjectCard';
 
 const jsProjects = [
     {
-        image: 'Digital Clock',
+        image: 'digital clock',
         name: 'Digital Clock',
     description: 'A responsive JavaScript digital clock with real-time updates, 12/24-hour toggle, and date display.',
         link: 'https://digital-clock-ecru-mu.vercel.app/',
     },
     {
-        image: 'Quote Generator',
+        image: 'quote Generator',
         name: 'Random Quote Generator',
         description: 'A JavaScript app that displays random quotes with a single click, featuring a simple and modern UI.',
         link: 'https://random-quote-generator-brown-theta.vercel.app/',

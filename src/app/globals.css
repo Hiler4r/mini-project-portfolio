@@ -3,12 +3,12 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --primary: #f97316; /* orange-500 */
-  --secondary: #64748b; /* slate-500 */
+  --primary: #f97316;
+  --secondary: #64748b;
 }
 
 @theme inline {
-  --color-background: var(--background);
+  --color-background: var(--foreground);
   --color-foreground: var(--foreground);
   --color-primary: var(--primary);
   --color-secondary: var(--secondary);
@@ -20,8 +20,8 @@
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
-    --primary: #fb923c; /* orange-400 for dark mode */
-    --secondary: #94a3b8; /* slate-400 for dark mode */
+    --primary: #fb923c;
+    --secondary: #94a3b8;
   }
 }
 

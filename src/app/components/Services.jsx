@@ -4,7 +4,7 @@ import React from 'react'
 export default function Services() {
     return (
         <div>
-            <div className='text-5xl font-bold text-left ml-10  px-10'>
+            <div className='md:text-5xl text-3xl font-bold text-left md:ml-10 ml-0  md:px-10 px-5'>
                 <p>I provide artistic <span className='text-primary'>solutions</span> to</p>
                 <p>meet your business </p>
                 <p>requirements. </p>

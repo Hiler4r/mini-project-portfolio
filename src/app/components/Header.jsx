@@ -13,10 +13,10 @@ import GreyButton from './GreyButton';
 export default function Header({ name }) {
     return (
         <div className='mx-10'>
-            <h1 className='text-7xl text-center mt-15 font-serif font-bold uppercase'>{name}</h1>
-            <div className='flex  mt-13 justify-between'>
-                <div className='h-1 w-150 bg-primary'></div>
-                <p className='max-w-[500px] '>Experienced creative designer and custom artist based in London, blending innovation with artistic flair. Crafting captivating visuals that leave a lasting impression.</p>
+            <h1 className='md:text-7xl text-3xl text-center mt-15 font-serif font-bold uppercase'>{name}</h1>
+            <div className='flex flex-col md:flex-row gap-2 mt-13 justify-between'>
+                <div className='h-1 md:w-150 bg-primary'></div>
+                <p className='max-w-[500px]  '>Experienced creative designer and custom artist based in London, blending innovation with artistic flair. Crafting captivating visuals that leave a lasting impression.</p>
             </div>
 
 

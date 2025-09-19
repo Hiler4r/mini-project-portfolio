@@ -11,12 +11,12 @@ export default function Services() {
             </div>
 
             <div>
-                <div className='flex flex-col gap-y-10 text-xl '>
+                <div className='flex flex-col gap-y-10 text-xl mx-15 '>
                     <Image
                         src="/reference1.png"
                         alt="design"
                         width={550} height={550}
-                        className='rounded-4xl mt-10'
+                        className='rounded-4xl mx-2 mt-10 w-full max-w-sm md:max-w-md lg:max-w-lg h-auto'
                     />
                     <p>My services blend creativity and strategy to bring your vision <br /> to life, leaving a lasting impact.</p>
                 </div>

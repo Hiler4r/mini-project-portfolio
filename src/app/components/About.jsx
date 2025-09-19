@@ -11,7 +11,7 @@ export default function About
                     src="/profile pic.png"
                     alt="my profile pic"
                     width={400} height={400}
-                    className='rounded-4xl'
+                    className='rounded-4xl w-full max-w-xs sm:max-w-sm md:max-w-md h-auto'
                 />
 
                 <div className='flex flex-col gap-y-10'>

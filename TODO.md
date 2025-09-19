@@ -1,16 +1,11 @@
-# Portfolio Update Tasks
+# TODO List for Portfolio Responsiveness and Layout Fixes
 
-## Completed Tasks
-- [x] Analyze current page structure and components
-- [x] Create plan for projects and contact sections
-- [x] Create ProjectCard component for individual project cards
-- [x] Create Projects component with JavaScript and React sections
-- [x] Create Contact component with proper id
-- [x] Update main page.jsx to include Projects and Contact components
-- [x] Update navbar links to use correct ids and CSS variables
-- [x] Update Button component to use CSS variables
-- [x] Update Header component to use CSS variables
-
-## Pending Tasks
-- [ ] Test navigation and layout
-- [ ] Style components for consistency
+- [x] Fix invalid Tailwind CSS class names in Navbar and other components (e.g., gap-145, gap-15).
+- [x] Improve responsive layout using Tailwind's responsive utilities (sm:, md:, lg:) in Navbar, Footer, Header, About, Services, Projects, Contact.
+- [x] Ensure images have appropriate responsive sizing and alt attributes.
+- [x] Add or improve responsive grid and flexbox layouts in Footer, Projects, ProjectCard.
+- [x] Fix JSX or React errors or warnings if any.
+- [x] Enhance About and Works pages with proper layout and content placeholders.
+- [x] Verify and update global styles in globals.css if needed for responsiveness.
+- [x] Test site locally for responsiveness and fix any issues found.
+- [x] Integrate Bootstrap classes to make the webpage look nice.

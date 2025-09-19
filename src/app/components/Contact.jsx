@@ -3,7 +3,7 @@ import Button from './Button';
 
 export default function Contact() {
     return (
-        <div id="contact" className="mx-10 my-20">
+        <div id="contact" className="mx-4 sm:mx-10 my-20">
             <h2 className="text-5xl font-bold mb-10">Get In Touch</h2>
             <div className="max-w-2xl">
                 <p className="text-xl mb-8 text-secondary">

@@ -4,8 +4,8 @@ import Image from 'next/image'
 
 export default function Navbar() {
   return (
-    <nav className='px-10'>
-      <ul className='flex items-center gap-15 justify-between mx-10 my-8 font-bold text-lg'>
+    <nav className='px-4 sm:px-10'>
+      <ul className='flex items-center gap-4 sm:gap-10 justify-between mx-4 sm:mx-10 my-8 font-bold text-lg'>
         <div className='flex items-center gap-5'>
           <li className='hover:text-primary text-color-primary'>
             <Link href="/">Home</Link>

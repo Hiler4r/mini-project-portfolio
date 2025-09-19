@@ -53,18 +53,18 @@ const reactProjects = [
         description: 'A React/Next.js Tic-Tac-Toe game with win detection, draw handling, and a reset option',
         link: 'https://react-mini-projects-jade.vercel.app/tic-tac-toe',
     },
-    // {
-    //     image: '/react4.png',
-    //     name: 'React Project 4',
-    //     description: 'Description for React Project 4',
-    //     link: 'https://example.com/react-project-4',
-    // },
-    // {
-    //     image: '/react5.png',
-    //     name: 'React Project 5',
-    //     description: 'Description for React Project 5',
-    //     link: 'https://example.com/react-project-5',
-    // },
+    {
+        image: 'Password Generator',
+        name: 'Random Password Generator',
+        description: 'A React/Next.js app that creates secure, customizable passwords with length and character options, plus one-click copy.',
+        link: 'https://react-mini-projects-jade.vercel.app/random-password-gen',
+    },
+    {
+        image: 'Currency Converter',
+        name: 'Currency Converter',
+        description: 'A React/Next.js app that converts amounts between currencies using live exchange rates, with a clean UI, swap option',
+        link: 'https://react-mini-projects-jade.vercel.app/currency-converter',
+    },
 ];
 
 export default function Projects() {
